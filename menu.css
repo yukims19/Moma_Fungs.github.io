@@ -1,0 +1,30 @@
+.carousel-item {
+    height: 65vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.menu-selection{
+    text-align: center;
+    height: 200px;
+    position: relative;
+    border: solid;
+
+}
+.menu-download, .menu-filter{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    position: relative;
+    top: 20px;
+}
+.menu-filter button{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.menu-images{
+    background-color: black;
+    width: 100%;
+}

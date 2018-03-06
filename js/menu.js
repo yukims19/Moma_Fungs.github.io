@@ -1,0 +1,24 @@
+$(document).ready(function(){
+    $('.bun-slide').hide();
+    $('.dumpling-slide').hide();
+    $('.vegetarian-slide').hide();
+
+    $('#buns').click(function(){
+        $('.bun-slide').show();
+        $('.dumpling-slide').hide();
+        $('.vegetarian-slide').hide();
+        $('.all-slide').hide();
+    })
+    $('#dumplings').click(function(){
+        $('.dumpling-slide').show();
+        $('.vegetarian-slide').hide();
+        $('.bun-slide').hide();
+        $('.all-slide').hide();
+    })
+    $('#vegetarian').click(function(){
+        $('.bun-slide').hide();
+        $('.dumpling-slide').hide();
+        $('.vegetarian-slide').show();
+        $('.all-slide').hide();
+    })
+})
