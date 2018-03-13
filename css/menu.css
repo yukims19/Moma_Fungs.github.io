@@ -67,8 +67,9 @@ header{
     text-align: center; !important
 
 }
-.menu-container, gallery-container{
+.menu-container, .gallery-container{
     position: relative;
+    top: 140px;
 }
 .nav-background{
     height: 130px;
@@ -81,6 +82,10 @@ header{
     margin-top: 10px;
     font-size: 20px;
 }
+footer{
+    position: relative;
+    top: 140px;
+}
 @media (max-width:990px){
     .nav-background{
         display: none;
@@ -91,5 +96,23 @@ header{
     }
     .menu-images .col-md-4{
         padding: 25px;
+    }
+}
+@media (min-width:992px) {
+    #mainNav {
+        padding-top: 25px;
+        padding-bottom: 25px;
+        -webkit-transition: padding-top .3s, padding-bottom .3s;
+        -moz-transition: padding-top .3s, padding-bottom .3s;
+        transition: padding-top .3s, padding-bottom .3s;
+        border: none;
+        background-color: rgba(0,0,0,.4);
+    }
+
+
+	  #mainNav.navbar-shrink {
+        padding-top: 0;
+        padding-bottom: 0;
+        background-color: rgba(0,0,0,0.4);
     }
 }
