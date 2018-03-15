@@ -40,7 +40,8 @@
     margin-bottom: 15px;
     padding-top: 20px;
     margin-bottom: 30px;
-    margin-top: 40px;
+    //margin-top: 40px;
+    padding-top: 80px;
 }
 .carousel-item img{
     width: 100%;
@@ -49,7 +50,7 @@ section{
     padding: 0px;
 }
 .gallery-container{
-    background-color: #cfcfcf;
+    background-color: #ececec;
 }
 header{
     padding-bottom: 30px;
@@ -69,7 +70,11 @@ header{
 }
 .menu-container, .gallery-container{
     position: relative;
-    top: 140px;
+//    top: 140px;
+}
+.menu-container{
+    background-color: #ffd2da;
+    padding-top: 140px;
 }
 .nav-background{
     height: 130px;
@@ -77,14 +82,14 @@ header{
     background-color: #f78397;
 }
 .bun-title{
-    text-align: center;
+    text-align: left;
     margin-bottom: 0px;
     margin-top: 10px;
     font-size: 20px;
 }
 footer{
     position: relative;
-    top: 140px;
+    //top: 140px;
 }
 @media (max-width:990px){
     .nav-background{
@@ -96,6 +101,12 @@ footer{
     }
     .menu-images .col-md-4{
         padding: 25px;
+    }
+    .menu-container{
+        padding-top: 0px;
+    }
+    .bun-title{
+        text-align: center;
     }
 }
 @media (min-width:992px) {

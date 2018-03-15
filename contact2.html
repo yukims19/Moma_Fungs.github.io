@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>Menu</title>
+
+        <!-- Bootstrap core CSS -->
+        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Custom fonts for this template -->
+        <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+        <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+        <!-- Custom styles for this template -->
+        <link href="css/agency.min.css" rel="stylesheet">
+        <link href="css/menu.css" rel="stylesheet">
+
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container-fluid">
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fa fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <div class="mx-auto order-0">
+                        <ul class="nav navbar-nav mx-auto">
+                            <li class="nav-item"><a class="navbar-brand js-scroll-trigger" href="index.html"><img src="img/MommaFung1.png" id="navImage"></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <ul class="navbar-nav text-uppercase mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="about.html">Our Story</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="menu.html">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="catering.html">Catering</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <section class="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-heading text-uppercase">Contact Us</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <ul class="contact-info" style="list-style-type: none;">
+                            <li><i class="glyphicon glyphicon-earphone"></i>  323 547 8581</li>
+                            <li><i class="glyphicon glyphicon-earphone"></i>  323 768 3630</li>
+                            <li><a href="#"> Katie@mommafung.com</a></li>
+                            <li><a href="#"> Ismael@mommafung.com</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-8 animate-box">
+                        <div class="row" style="margin-bottom:30px;">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Name">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Email">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <textarea name="" class="form-control" id="" cols="30" rows="7" placeholder="Message"></textarea>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <input type="submit" value="Send Message" class="btn btn-primary">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h1>Date of Next Event</h1>
+                        <h3>Night Market at the Plex</h3>
+                        <p>1101 W McKinley Ave, Pomona, CA 91768</p>
+                        <p> Feb 24th | 10 AM to 3 PM
+                    </div>
+                </div>
+                <div class="row" style="margin-top:20px;">
+                    <div id="map" style="width:1200px;height:500px" style="margin: 0 auto 0 auto;"></div>
+                </div>
+                <script>
+                 function myMap() {
+                     var mapProp= {
+                         center:new google.maps.LatLng(41.85,-87.65),
+                         zoom:5,
+                     };
+                     var map=new google.maps.Map(document.getElementById("map"),mapProp);
+                 }
+                </script>
+            </div>
+        </section>
+
+        <!-- Bootstrap core JavaScript -->
+        <script src="vendor/jquery/jquery.min.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+        <!-- Plugin JavaScript -->
+        <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+        <!-- Contact form JavaScript -->
+        <script src="js/jqBootstrapValidation.js"></script>
+        <script src="js/contact_me.js"></script>
+
+        <!-- Google map -->
+        <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+
+        <!-- Custom scripts for this template -->
+        <script src="js/agency.min.js"></script>
+    </body>
+                        </html>
