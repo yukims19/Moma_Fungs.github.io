@@ -859,9 +859,18 @@
          color: rgba(0,0,0,.6);
      }
 
-     #makingof{
-        background: #4FC3F7;
+      @media (max-width:380px) {
+            .carousel {
+               top: 71px;
+
+            }
+        
      }
+
+     hr {
+        border-top: solid black;
+     }
+
 
 
 /*-----------------------------------------------------------------------*/

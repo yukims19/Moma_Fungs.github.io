@@ -86,10 +86,13 @@ header{
     background-color: #f78397;
 }
 .bun-title{
-    text-align: left;
+    text-align: center;
     margin-bottom: 0px;
     margin-top: 10px;
     font-size: 20px;
+}
+.menu-img p{
+    text-align: center;
 }
 footer{
     position: relative;
