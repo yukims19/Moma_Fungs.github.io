@@ -9,11 +9,11 @@
         }
 
         a {
-            color: #fed136
+            color: #ff0080
         }
 
         a:hover {
-            color: #fec503
+            color: #ff0080
         }
 
         .text-primary {
@@ -51,7 +51,7 @@
 
         @media (min-width:768px) {
             section {
-                padding: 150px 0
+                
             }
         }
 
@@ -66,15 +66,15 @@
         }
 
         .btn-primary {
-            background-color: #fed136;
-            border-color: #fed136
+            background-color: #48a9a6;
+            border-color: #48a9a6;
         }
 
         .btn-primary:active,
         .btn-primary:focus,
         .btn-primary:hover {
-            background-color: #fec810!important;
-            border-color: #fec810!important;
+            background-color: #ff0080!important;
+            border-color: #ff0080!important;
             color: #fff
         }
 
@@ -102,35 +102,35 @@
         }
 
         #mainNav {
-            background-color: #212529
+            background-color: rgba(0,0,0,.6);
         }
 
         #navImage {
             height: 80px;
             max-width: 100%;
-            margin-left: 2.5vw;
+            margin-left: 9.5vw;
             text-align: center; !important
 
         }
 
         @media (max-width:800px){
         	#navImage{
-        	height: 55px;
+        	height: 45px;
             max-width: 100%;
-            margin-left:100%;
+            
 
         	}
         }
 
 
         #mainNav .navbar-toggler {
-            font-size: 12px;
+            
             right: 0;
             padding: 13px;
             text-transform: uppercase;
             color: #fff;
             border: 0;
-            background-color: #fed136;
+            
             font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif
         }
 
@@ -157,7 +157,7 @@
 
         #mainNav .navbar-nav .nav-item .nav-link.active,
         #mainNav .navbar-nav .nav-item .nav-link:hover {
-            color: #fed136
+            color: #ff0080
         }
 
         @media (min-width:992px) {
@@ -168,7 +168,7 @@
                 -moz-transition: padding-top .3s, padding-bottom .3s;
                 transition: padding-top .3s, padding-bottom .3s;
                 border: none;
-                background-color: transparent
+                background-color: rgba(0,0,0,.4);
             }
             #mainNav .navbar-brand {
                 font-size: 1.75em;
@@ -182,7 +182,7 @@
             #mainNav.navbar-shrink {
                 padding-top: 0;
                 padding-bottom: 0;
-                background-color: #212529
+                background-color: rgba(,0,0,0,.4);
             }
             #mainNav.navbar-shrink .navbar-brand {
                 font-size: 1.25em;
@@ -723,7 +723,7 @@
         ul.social-buttons li a:active,
         ul.social-buttons li a:focus,
         ul.social-buttons li a:hover {
-            background-color: #fed136
+            background-color: #ff0080
         }
 
 
@@ -761,6 +761,7 @@
 
         #maps::-webkit-scrollbar {
             display: block;
+             -webkit-overflow-scrolling: touch;
            
         }
 
@@ -773,9 +774,9 @@
         .square {
             position: relative;
             flex-basis: 20%;
-            margin: 5px;
-            border: 3px solid #ff6961;
-            background: #ff6961;
+            margin: 20px;
+            border: 3px solid #48a9a6;
+            background: #48a9a6;
             box-sizing: border-box;
         }
 
@@ -817,7 +818,7 @@
                 position: relative;
                 flex-basis: calc(45%);
                 margin: 5px;
-                border: 3px solid #ff6961;
+                border: 3px solid #48a9a6;
                 box-sizing: border-box;
             }
         }
@@ -840,9 +841,26 @@
 
             }
 
-         .carousel{
-         	top: 52px;
-         }
+        
+     }
+
+     #captions{
+        position: absolute;
+        top:700px;
+        left: 900px;
+     }
+
+      #captions h1{
+        font-size: 20px;
+        color: rgba(255,255,255,1);
+     }
+
+      #captions h2{
+         color: rgba(0,0,0,.6);
+     }
+
+     #makingof{
+        background: #4FC3F7;
      }
 
 
