@@ -10,9 +10,8 @@ p {
 a {
   color: #fed136;
 }
-
 a:hover {
-  color: #fec503;
+    color: #ff0080
 }
 
 .text-primary {
@@ -874,4 +873,46 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 }
 .contact h2{
   padding-top: 130px;
+}
+/*------lines 15 - 17-----*/
+a:hover {
+    color: #ff0080
+}
+
+/*------lines 104 - 106-----*/
+#mainNav {
+    background-color: rgba(0,0,0,.6);
+}
+
+
+/*------lines 116 - 123-----*/
+@media (max-width:800px){
+    #navImage{
+        height: 45px;
+        max-width: 100%;
+    }
+}
+
+/*------lines 158 - 161-----*/
+#mainNav .navbar-nav .nav-item .nav-link.active,
+#mainNav .navbar-nav .nav-item .nav-link:hover {
+    color: #ff0080
+}
+
+
+/*------lines 73 - 79-----*/
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:hover {
+    background-color: #ff0080!important;
+    border-color: #ff0080!important;
+    color: #fff
+}
+
+
+/*------lines 723 - 727-----*/
+ul.social-buttons li a:active,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:hover {
+    background-color: #ff0080
 }
