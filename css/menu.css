@@ -68,7 +68,7 @@ header{
 #navImage {
     height: 80px;
     max-width: 100%;
-    margin-left: 2.5vw;
+    margin-left: 9.5vw;
     text-align: center; !important
 
 }
@@ -143,13 +143,13 @@ ul.social-buttons li a:hover {
     }
     .menu-container, .gallery-container, footer{
         position: relative;
-        top: 55px;
+        //top: 55px;
     }
     .menu-images .col-md-4{
         padding: 25px;
     }
     .menu-container{
-        padding-top: 0px;
+        padding-top: 55px;
     }
     .bun-title{
         text-align: center;
